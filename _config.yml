@@ -1,0 +1,82 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://qingstor.github.io
+date_format: "ordinal"
+title: QingStor
+subtitle: "QingStor Releases"
+description: "QingStor releases"
+keywords: QingStor, Releases
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: QingStor Team
+organization: yunify
+organization_url: https://www.qingcloud.com/qingstor
+github_username: yunify
+location: Beijing, China
+email: qs-devel@yunify.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+
+repository: yunify/qsctl
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# disqus_username: mzlogin
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+# google:
+    # analytics_id: UA-80669434-1
